@@ -715,13 +715,15 @@ p {
   font-size: 18px;
 }
 
-.hero-section .hero-image {
+.hero-section .hero-image img {
   padding-top: 50px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section .hero-image img {
     width: 100%;
+
   }
 }
 
