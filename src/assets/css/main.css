@@ -1,20 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
   --primary-color: #fb6031;
   --secondary-color: #2ED1AA;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Sen", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: rgba(0, 0, 0, 0.7);
-  overflow-x: hidden;
 }
 
 * {
@@ -22,6 +10,19 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
+  overflow-x: hidden !important;
+}
+
 
 a:focus,
 input:focus,
@@ -660,8 +661,7 @@ p {
   height: 820px;
   display: flex;
   align-items: center;
- background-color: var(--primary-color)
- ;
+  background-color: var(--primary-color);
   z-index: 1;
 }
 
